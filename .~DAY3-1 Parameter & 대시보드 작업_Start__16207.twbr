@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0614.2338                               -->
+<workbook source-build='2020.2.2 (20202.20.0614.2338)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='all'>
+      <format attr='font-family' value='맑은 고딕' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='Sheet1 (스타벅스 메뉴)' inline='true' name='federated.07q5tbg1bt2qmp15sn6t30n745gi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='스타벅스 메뉴' name='excel-direct.09c4xtf0fsxrfa1asa12p03en13u'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Day1/스타벅스 메뉴.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.09c4xtf0fsxrfa1asa12p03en13u' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H141:no:A1:H141:0' header='yes' outcome='6'>
+            <column datatype='string' name='카테고리' ordinal='0' />
+            <column datatype='string' name='메뉴명' ordinal='1' />
+            <column datatype='integer' name='칼로리(Kcal)' ordinal='2' />
+            <column datatype='integer' name='당류(g)' ordinal='3' />
+            <column datatype='real' name='단백질(g)' ordinal='4' />
+            <column datatype='real' name='나트륨(mg)' ordinal='5' />
+            <column datatype='real' name='포화지방(g)' ordinal='6' />
+            <column datatype='integer' name='카페인(mg)' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.09c4xtf0fsxrfa1asa12p03en13u' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H141:no:A1:H141:0' header='yes' outcome='6'>
+            <column datatype='string' name='카테고리' ordinal='0' />
+            <column datatype='string' name='메뉴명' ordinal='1' />
+            <column datatype='integer' name='칼로리(Kcal)' ordinal='2' />
+            <column datatype='integer' name='당류(g)' ordinal='3' />
+            <column datatype='real' name='단백질(g)' ordinal='4' />
+            <column datatype='real' name='나트륨(mg)' ordinal='5' />
+            <column datatype='real' name='포화지방(g)' ordinal='6' />
+            <column datatype='integer' name='카페인(mg)' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H141:no:A1:H141:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>카테고리</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[카테고리]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>카테고리</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>메뉴명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[메뉴명]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>메뉴명</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>칼로리(Kcal)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[칼로리(Kcal)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>칼로리(Kcal)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>당류(g)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[당류(g)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>당류(g)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>단백질(g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[단백질(g)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>단백질(g)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>나트륨(mg)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[나트륨(mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>나트륨(mg)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>포화지방(g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[포화지방(g)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>포화지방(g)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>카페인(mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[카페인(mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>카페인(mg)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Migrated Data]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='선택된 측정값' datatype='integer' name='[Calculation_1140466255327203328]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Parameters].[Parameter 1] = &quot;칼로리&quot; THEN [칼로리(Kcal)] &#10;ELSEIF [Parameters].[Parameter 1] = &quot;카페인&quot; THEN [카페인(mg)]&#10;ELSEIF [Parameters].[Parameter 1] = &quot;당류&quot; THEN [당류(g)] END' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Migrated Data' datatype='table' name='[__tableau_internal_object_id__].[Migrated Data]' role='measure' type='quantitative' />
+      <column caption='나트륨(Mg)' datatype='real' name='[나트륨(mg)]' role='measure' type='quantitative' />
+      <column caption='단백질(G)' datatype='real' name='[단백질(g)]' role='measure' type='quantitative' />
+      <column caption='당류(G)' datatype='integer' name='[당류(g)]' role='measure' type='quantitative' />
+      <column datatype='string' name='[카테고리]' role='dimension' type='nominal' />
+      <column caption='카페인(Mg)' datatype='integer' name='[카페인(mg)]' role='measure' type='quantitative' />
+      <column caption='포화지방(G)' datatype='real' name='[포화지방(g)]' role='measure' type='quantitative' />
+      <group caption='작업(카테고리)' hidden='true' name='[Action (카테고리)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[카테고리]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='선택된 속성' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;카페인&quot;'>
+          <calculation class='tableau' formula='&quot;카페인&quot;' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Migrated Data' id='Migrated Data'>
+            <properties context=''>
+              <relation connection='excel-direct.09c4xtf0fsxrfa1asa12p03en13u' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:H141:no:A1:H141:0' header='yes' outcome='6'>
+                  <column datatype='string' name='카테고리' ordinal='0' />
+                  <column datatype='string' name='메뉴명' ordinal='1' />
+                  <column datatype='integer' name='칼로리(Kcal)' ordinal='2' />
+                  <column datatype='integer' name='당류(g)' ordinal='3' />
+                  <column datatype='real' name='단백질(g)' ordinal='4' />
+                  <column datatype='real' name='나트륨(mg)' ordinal='5' />
+                  <column datatype='real' name='포화지방(g)' ordinal='6' />
+                  <column datatype='integer' name='카페인(mg)' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='선택된 속성' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;카페인&quot;'>
+        <calculation class='tableau' formula='&quot;카페인&quot;' />
+        <members>
+          <member value='&quot;칼로리&quot;' />
+          <member value='&quot;카페인&quot;' />
+          <member value='&quot;당류&quot;' />
+        </members>
+      </column>
+      <column caption='카페인 함유량 선택' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+        <calculation class='tableau' formula='1' />
+        <range granularity='1' max='260' min='0' />
+      </column>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='파라미터로 값 변경하기 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>카테고리 별 &lt;</run>
+            <run>[Parameters].[매개 변수 1]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (스타벅스 메뉴)' name='federated.07q5tbg1bt2qmp15sn6t30n745gi' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='선택된 속성' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;카페인&quot;'>
+              <calculation class='tableau' formula='&quot;카페인&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.07q5tbg1bt2qmp15sn6t30n745gi'>
+            <column caption='선택된 측정값' datatype='integer' name='[Calculation_1140466255327203328]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Parameters].[Parameter 1] = &quot;칼로리&quot; THEN [칼로리(Kcal)] &#10;ELSEIF [Parameters].[Parameter 1] = &quot;카페인&quot; THEN [카페인(mg)]&#10;ELSEIF [Parameters].[Parameter 1] = &quot;당류&quot; THEN [당류(g)] END' />
+            </column>
+            <column-instance column='[Calculation_1140466255327203328]' derivation='Avg' name='[avg:Calculation_1140466255327203328:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[카테고리]' derivation='None' name='[none:카테고리:nk]' pivot='key' type='nominal' />
+            <column caption='당류(G)' datatype='integer' name='[당류(g)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[카테고리]' role='dimension' type='nominal' />
+            <column caption='카페인(Mg)' datatype='integer' name='[카페인(mg)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[칼로리(Kcal)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.07q5tbg1bt2qmp15sn6t30n745gi].[none:카테고리:nk]' direction='DESC' using='[federated.07q5tbg1bt2qmp15sn6t30n745gi].[avg:Calculation_1140466255327203328:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[Parameters].[Parameter 1]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07q5tbg1bt2qmp15sn6t30n745gi].[none:카테고리:nk]</rows>
+        <cols>[federated.07q5tbg1bt2qmp15sn6t30n745gi].[avg:Calculation_1140466255327203328:qk]</cols>
+      </table>
+      <simple-id uuid='{7AE4F072-3573-405E-A642-057DBDC7AB11}' />
+    </worksheet>
+    <worksheet name='파라미터로 값 변경하기 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>[Parameters].[매개 변수 3]</run>
+            <run>&gt;과 &lt;</run>
+            <run>[Parameters].[X축(복사본)_1592585457946329091]</run>
+            <run>&gt;의 상관관계</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources />
+          <datasource-dependencies datasource='Parameters' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DD3C4AB6-462D-4497-AB50-636D72AD6D69}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='대시보드 작업 이용'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <simple-id uuid='{10120B0A-E249-4275-A804-719AE066E2D0}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='파라미터로 값 변경하기 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{1C982D01-8440-4894-A86A-B17371F78E7C}' />
+    </window>
+    <window class='worksheet' name='파라미터로 값 변경하기 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{F6204A2F-FA2C-4ACE-85F5-302AF0010E96}' />
+    </window>
+    <window class='dashboard' name='대시보드 작업 이용'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{9547CED9-FAE3-4B32-862A-34F8FF92090F}' />
+    </window>
+  </windows>
+</workbook>
